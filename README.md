@@ -4,4 +4,4 @@
  - [ ] Add a suitable image
  - [x] Add text to frontpage
  - [ ] Add a logo
- - [ ] Add spy-bar functionality
+ - [ ] Add scrollspy functionality
