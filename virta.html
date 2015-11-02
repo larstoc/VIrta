@@ -1,80 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-		<head>
-				<meta charset="utf-8">
-				<meta http-equiv="X-UA-Comptaible" content="IE=edge">
-				<meta name="viewport" content="width=device-width, initial-scale=1">
-				<!-- the above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-				<meta name="description" content>
-				<meta name="author" content>
-				<link rel="icon" href="../../favicon.ico">
-				<title>Cover Template for Bootstrap</title>
+<html lang=en>
+<head>
+  <meta charset="UTF-8">
+  <title>Virta</title>
+  <link rel="stylesheet" href="bootstrap-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-dist/css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="bootstrap-dist/js/bootstrap.min.js"></script>
+  <link href="virta.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="navbar-wrapper">
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#Home">Virta</a>
+          </div> <!-- Navbar header end -->
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div> <!-- Navbar Wrapper end -->
+  </header>
+<section id="Home" class="jumbotron">
+  <article>
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <h1>Explore immersive possibilities</h1>
+          <p class="lead">
+            Virta's mission is to help businesses utilize virtual and augmented reality.
+            A thourough process of research and prototyping unravels the advantages of augmented and virtual reality for your company.
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
 
-				<!--Bootstrap core CSS -->
-				<link href="./bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
-				<!-- Custom styles for this template -->
-				<link href="virta.css" rel="stylesheet">
-		</head>
-<body>
-		<div class="site-wrapper">
-				<div class="site-wrapper-inner">
-						<div class="cover-container">
-								<div class="masthead clearfix">
-										<!-- ::before -->
-										<div class="inner">
-												<h3 class="masthead-brand"><a href="#Home">Virta</a></h3>
-												<nav>
-													<ul class="nav masthead-nav">
-															<!--::before-->
-															<li class="active">
-																<a href="#Home">Home</a>
-															</li>
-															<li>
-																<a href="#Contact">Contact</a>
-															<li>
-															<!--::after-->
-														</ul>
-													</nav>
-												</div>
-												<!--::after-->
-										</div>
-										<section id="Home">
-											<!-- <div class="inner cover"> -->
-													<h1 class="cover-heading">Exploring immersive possibilities</h1>
-													<p class="lead">
-													Virta's mission is to help businesses utilize virtual and augmented reality. 
-													A thourough process of research and prototyping unravels the advantages of augmented and virtual reality for your company. 
-													</p>
-										</section>
-										<section id="Contact">
-											<h1 class="cover-heading">Getting in touch </h1>
-											<p class="lead">
-												Virta can be reached at contact@virta.no
-											</p>
-											<p class="lead">
-											<a href="mailto:contact@virta.no" class="btn btn-lg btn-default">Email us</a>											
+<section id="Contact">
+  <div class="container contact">
+    <div class="section-header">
+      <h2>Contact us</h2>
+    </div>
+    <p class="lead">
+      Virta can be reached at contact@virta.no
+    </p>
+    <p class="lead">
+      <a href="mailto:contact@virta.no" class="btn btn-lg btn-default">Email us</a>
+    </p>
+  </div>
+</section>
 
-										</section>
 
-													<!-- </div> -->
-													<!--<div class="mastfoot">
-														<div class="inner">
-																<p>
-																	"Cover template for "
-																	<a href="http://getbootstrap.com">Bootstrap</a>
-																	", by "
-																	<a href="https://twitter.com/mdo">@mdo</a>
-																	"."
-																</p>
-															</div>
-													</div> -->
-											</div>
-									</div>
-							</div>
-		<!--- Bootstrap core JavaScript
-			==================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src=../bootstrap-dist/js/bootstrap.min.js></script>
-	</body>
-</html>
+
+<section class="footer-section">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          Contact information:
+          <br>
+          E-mail - <a href="mailto:contact@virta.no">contact@virta.no</a>
+          <br>
+          Telephone - +47 45 91 32 88
+        </div>
+      </div>
+  </div>
+</section>
+</body>
