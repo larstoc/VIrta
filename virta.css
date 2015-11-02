@@ -38,7 +38,6 @@ ul.nav {
   background-color: transparent;
 
 }
-
 .navbar-brand{
   margin-top: 25px;
   font-size: 25px;
@@ -46,11 +45,10 @@ ul.nav {
 
 .navbar-nav {
 }
-
 /* === JUMBOTRON === */
 #Home {
 
-      background-image: url('virta.jpeg');
+      background-image: url('mountains.jpeg');
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
@@ -67,7 +65,7 @@ ul.nav {
 
 #Contact{
   width: 100%;
-  background-image: url('contact3.jpeg');
+  background-image: url('persononrock.jpeg');
   background-attachment:  fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,22 +81,23 @@ ul.nav {
 
 
 .jumbotron article {
-  padding-top: 45vh;
+  padding-top: 20vh;
   text-align: center;
 }
 
 .jumbotron h1 {
   font-size: 40px;
-  color: #FFFFFF;
-  text-shadow: -2px 2px black;
+  color: #000;
+
+  /*text-shadow: -2px 2px black;*/
   letter-spacing: 2px;
   font-weight: 700;
   padding-bottom: 20px;
 }
 
 .jumbotron p.lead {
-  color: white;
-  text-shadow: -2px 2px black;
+  color: #000;
+  /*text-shadow: -2px 2px black;*/
   padding-bottom: 30px;
 }
 
@@ -109,14 +108,15 @@ ul.nav {
 
 .contact {
   text-align: center;
-  color: #FFFFFF;
-  text-shadow: -1px 1px black;
+  color: #000;
+  /*text-shadow: -1px 1px black;*/
   width: 100%;
   padding-top: 10%;
 }
 
 .contact h2{
   font-size: 40px;
+  color:#000;
 }
 
 /* Responsive Design */
