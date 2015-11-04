@@ -5,3 +5,4 @@
  - [x] Add text to frontpage
  - [ ] Add a logo
  - [x] Add scrollspy functionality
+ - [ ] Add scroll speed to scrollspy 
