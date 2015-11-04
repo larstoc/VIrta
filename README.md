@@ -6,3 +6,5 @@
  - [ ] Add a logo
  - [x] Add scrollspy functionality
  - [ ] Add scroll speed to scrollspy 
+ - [ ] Change the color of the navbar to pitch black #000000
+ - [ ] Thin down the navbar so that it has less height
