@@ -8,14 +8,30 @@ body {
   /*padding-top: 10%;*/
   height:100%;
 }
+/* == Globals == */
+
+
+
+.navbar-default{
+  background-color: #FFFFFF;
+  background-image: none;
+  background-repeat: no-repeat;
+}
 
 .section-header {
   text-align: center;
 }
 
+#logo {
+    width: 60px;
+    margin-left: 10px;
+}
+
 
 /* === NAVBAR === */
+
 .navbar-header {
+  /* Changing the color here changes the color around brand area*/
   padding-bottom: 0px;
 }
 
@@ -29,22 +45,26 @@ ul.nav {
 }
 
 .navbar-toggle {
+  outline: none;
   position: relative;
   float: right;
   padding: 9px 10px;
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;
-  background-color: transparent;
-
+  background-color: #000000;
 }
+
 .navbar-brand{
-  margin-top: 25px;
+  /*background-color: #000; /*colors the brand area*/
+  margin-top: 0px;
   font-size: 25px;
 }
 
-.navbar-nav {
+.collapse > ul > li : focus navbar-collapse > ul > li : focus{
+  background-color: #000000 !important;
 }
+
 /* === JUMBOTRON === */
 #Home {
 
@@ -135,7 +155,6 @@ ul.nav {
   background:#2e2c28;
   border-top:3px solid #4e4b46;
   width:100%;
-  background-image:url(../img/overlay.png);
   background-position:bottom right;
   background-repeat:no-repeat;
   background-size:50%;
