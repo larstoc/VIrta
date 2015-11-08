@@ -30,6 +30,10 @@ body {
 
 /* === NAVBAR === */
 
+.nav .active a {
+background: #FFFFFF!important 
+}
+
 .navbar-header {
   /* Changing the color here changes the color around brand area*/
   padding-bottom: 0px;
