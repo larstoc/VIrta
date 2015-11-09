@@ -5,7 +5,7 @@
  - [x] Add text to frontpage
  - [x] Add a logo
  - [x] Add scrollspy functionality
- - [ ] Add scroll speed to scrollspy 
+ - [x] Add scroll speed to scrollspy 
  - [x] Change the color of the navbar to white #FFFFFF
  - [x] Thin down the navbar so that it has less height
  - [ ] Add the about section
