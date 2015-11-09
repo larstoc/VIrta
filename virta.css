@@ -31,6 +31,19 @@ body {
   margin-left: 10px;
 }
 
+#telephone{
+  max-width: 70px;
+  max-height: 70px;
+  width: auto;
+  height: auto;
+}
+
+#email{
+  max-width: 70px;
+  max-height: 70px;
+  width: auto;
+  height: auto;
+}
 
 /* === NAVBAR === */
 
@@ -79,7 +92,7 @@ ul.nav {
 /* === JUMBOTRON === */
 #Home {
 
-  background-image: url('mountains.jpeg');
+  background-image: url('mistyMountains.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +106,21 @@ ul.nav {
   min-height: 100vh;
 }
 
+#left{
+  margin-right: 30px;
+  margin-left: 25px;
+}
 
+#logoLarge{
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+}
+
+#right p{
+  text-align: justify;
+}
 #Contact{
   width: 100%;
   background-image: url('persononrock.jpeg');
