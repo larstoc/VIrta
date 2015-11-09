@@ -9,3 +9,4 @@
  - [x] Change the color of the navbar to white #FFFFFF
  - [x] Thin down the navbar so that it has less height
  - [ ] Add the about section
+ - [ ] Lage blogg
