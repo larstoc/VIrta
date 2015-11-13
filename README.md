@@ -11,4 +11,4 @@
  - [x] Thin down the navbar so that it has less height
  - [x] Add the about section
  - [ ] Lage blogg
- - [ ] Constant placement of brand on navbar
+ - [x] Constant placement of brand on navbar
