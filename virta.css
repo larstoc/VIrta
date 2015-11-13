@@ -16,6 +16,7 @@ body {
   background-color: #FFFFFF;
   background-image: none;
   background-repeat: no-repeat;
+  border-color: #FFFFFF;
 }
 
 .section-header {
@@ -29,6 +30,13 @@ body {
   width: auto;
   height: auto;
   margin-left: 10px;
+}
+
+#logoLarge{
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
 }
 
 #telephone{
@@ -46,12 +54,23 @@ body {
 }
 
 /* === NAVBAR === */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+  background-image: none;
+  background-repeat: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 
 .nav .active a {
   color: #000000 !important;
   background: #FFFFFF!important;
+  border-radius: 0px;
 }
 
+.nav a:hover{
+  color: #000000 !important;
+}
 
 .nav a{
   color: #808080!important;
@@ -111,12 +130,6 @@ ul.nav {
   margin-left: 25px;
 }
 
-#logoLarge{
-  max-width: 250px;
-  max-height: 250px;
-  width: auto;
-  height: auto;
-}
 
 #right p{
   text-align: justify;
@@ -176,6 +189,16 @@ ul.nav {
   font-size: 40px;
   color:#000;
 }
+
+/* == About == */
+
+.about {
+  color: #000;
+  /*text-shadow: -1px 1px black;*/
+  width: 75%;
+}
+
+/* == Staff == */
 
 /* Responsive Design */
 /*
