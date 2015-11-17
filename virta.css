@@ -192,13 +192,42 @@ ul.nav {
 
 /* == About == */
 
+#About{
+  width: 100%;
+  background-image: url('aboutFiller.jpeg');
+  background-attachment:  fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-size: cover; /*hvis vi har lyst på svarte kanter*/
+  display: block;
+  position: relative;
+  max-width: none;
+  min-height: 100vh;
+
+}
+
 .about {
+  padding-top: 5%;
   color: #000;
   /*text-shadow: -1px 1px black;*/
   width: 75%;
 }
 
+.about h1 {
+  font-size: 40px;
+}
+
 /* == Staff == */
+
+#Staff{
+  min-height: 50vh;
+}
+
+.staff{
+  padding-top: 5%;
+  color: #000;
+}
 
 /* Responsive Design */
 /*
