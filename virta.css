@@ -229,6 +229,10 @@ ul.nav {
   color: #000;
 }
 
+.LT{
+  max-width: 750px;
+  max-height: 900px;
+}
 /* Responsive Design */
 /*
 @media (max-width: 768px) {
